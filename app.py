@@ -26,8 +26,7 @@ with st.expander('Analizar texto'):
             st.write( 'Entras un gran día.')
         elif x <= -0.5:
             st.write( 'Es un sentimiento Negativo 😔')
-            st.write(' A veces no es fácil lidiar con ellos, pero lo cierto es que ahí están, todos los sentimos. 
-            Lo mejor para tu salud emocional es afrontarlos y tratar de superarlos con toda la paciencia del mundo.😀')
+            st.write(' Tratar de superarlos con toda la paciencia del mundo.😀')
         else:
             st.write( 'Es un sentimiento Neutral 😐')
             st.write('Todo en la vida pasa 😋')
