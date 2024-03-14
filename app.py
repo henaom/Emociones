@@ -23,8 +23,7 @@ with st.expander('Analizar texto'):
         x=round(blob.sentiment.polarity,2)
         if x >= 0.5:
             st.write( 'Es un sentimiento Positivo 😊')
-            st.write( '💙Las emociones y los pensamientos positivos nos ayudan a abrirnos a nuevas posibilidades.
-            Tenemos más capacidad para aprender y desarrollar nuestras habilidades 💙.')
+            st.write( 'Entras un gran día.')
         elif x <= -0.5:
             st.write( 'Es un sentimiento Negativo 😔')
             st.write(' A veces no es fácil lidiar con ellos, pero lo cierto es que ahí están, todos los sentimos. 
